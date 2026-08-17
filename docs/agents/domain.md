@@ -2,12 +2,10 @@
 
 This project uses a single domain context.
 
-- Context document: `CONTEXT.md` at the repository root when the application
-  domain becomes large enough to need one.
+- Context document: `CONTEXT.md` at the repository root.
 - Architecture decisions: `docs/adr/`
 - Product requirements: `docs/prd/`
 
-The current domain vocabulary is centered on accounts, published usernames,
-pending usernames, moderation revisions, moderation jobs, resources,
-permissions, and queue workers.
-
+Read `CONTEXT.md` before changing accounts, username moderation, queue
+processing, member visibility, resources, or permissions. Read the relevant
+ADR before changing module interfaces or seam placement.
