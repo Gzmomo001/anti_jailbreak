@@ -39,6 +39,7 @@ async function classifyUsername(username: string): Promise<Decision> {
       },
       body: JSON.stringify({
         model,
+        enable_thinking: false,
         temperature: 0.1,
         max_tokens: 180,
         messages: [
