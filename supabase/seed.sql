@@ -1,0 +1,1 @@
+-- Cloud and local resource data is inserted by the initial migration.
